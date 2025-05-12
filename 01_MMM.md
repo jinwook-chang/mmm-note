@@ -45,8 +45,8 @@ MMM 모델을 이해하기 위해 알아야 할 몇 가지 주요 개념들이 �
         D --"TV 광고 활동"--> C;
         E --"검색 광고 활동"--> C;
 
-        style B fill:#f9f,stroke:#333,stroke-width:2px
-        style C fill:#ccf,stroke:#333,stroke-width:2px
+        style B stroke:#333,stroke-width:2px
+        style C stroke:#333,stroke-width:2px
     ```
 
 * **기여도 (Contribution):** 각 마케팅 채널 또는 외부 요인이 전체 성과(주로 증분 성과)에 얼마나 기여했는지를 나타내는 비율(%) 또는 절대값입니다. 예를 들어, "지난 분기 증분 매출의 30%는 TV 광고에서 비롯되었다" 와 같이 표현됩니다.
