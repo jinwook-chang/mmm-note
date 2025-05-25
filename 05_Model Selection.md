@@ -42,29 +42,43 @@ Robyn은 최적의 모델을 찾기 위해 광범위한 탐색 과정을 거칩�
 ```mermaid
 graph LR
     subgraph "Pareto Front 시각화 예시"
-        direction LR
-        Y["모델 오차 (DECOMP.RSSD) <br> (낮을수록 좋음)"] -- "Y축" --> O(" ")
-        X["비즈니스 인사이트 (예: 특정 채널 ROAS) <br> (높거나 특정 범위일수록 좋음)"] -- "X축" --> O
-        O -- " " --> P1["모델 A (오차 낮음, ROAS 보통)"]
-        O -- " " --> P2["모델 B (오차 보통, ROAS 좋음)"]
-        O -- " " --> P3["모델 C (오차 약간 높음, ROAS 매우 좋음)"]
+        direction LR;
+        Y["모델 오차 (DECOMP.RSSD) <br> (낮을수록 좋음)"] -- "Y축" --> O(" ");
+        X["비즈니스 인사이트 (예: 특정 채널 ROAS) <br> (높거나 특정 범위일수록 좋음)"] -- "X축" --> O;
+        O -- " " --> P1["모델 A (오차 낮음, ROAS 보통)"];
+        O -- " " --> P2["모델 B (오차 보통, ROAS 좋음)"];
+        O -- " " --> P3["모델 C (오차 약간 높음, ROAS 매우 좋음)"];
 
-        style P1 fill:#DCDCDC,stroke:#333,stroke-width:2px
-        style P2 fill:#DCDCDC,stroke:#333,stroke-width:2px
-        style P3 fill:#DCDCDC,stroke:#333,stroke-width:2px
+        style P1 fill:#DCDCDC,stroke:#333,stroke-width:2px;
+        style P2 fill:#DCDCDC,stroke:#333,stroke-width:2px;
+        style P3 fill:#DCDCDC,stroke:#333,stroke-width:2px;
 
-        classDef pareto fill:#87CEFA,stroke:#0000FF,stroke-width:2px,color:black
-        class P1,P2,P3 pareto
+        classDef pareto fill:#87CEFA,stroke:#0000FF,stroke-width:2px,color:black;
+        class P1,P2,P3 pareto;
 
-        S1["열등한 모델 1"] --> P1
-        S2["열등한 모델 2"] --> P2
-        S3["열등한 모델 3"] --> P3
+        S1["열등한 모델 1"] --> P1;
+        S2["열등한 모델 2"] --> P2;
+        S3["열등한 모델 3"] --> P3; // <-- Added semicolon here
 
+        note right of P1
+            NRMSE: 0.1
+            채널 X ROAS: 2.5
+        end
+
+        note right of P2
+            NRMSE: 0.15
+            채널 X ROAS: 3.5
+        end
+
+        note right of P3
+            NRMSE: 0.2
+            채널 X ROAS: 4.0
+        end
     end
 
-    P1 -- "선택 후보" --> Z("분석가 최종 판단")
-    P2 -- "선택 후보" --> Z
-    P3 -- "선택 후보" --> Z
+    P1 -- "선택 후보" --> Z("분석가 최종 판단");
+    P2 -- "선택 후보" --> Z;
+    P3 -- "선택 후보" --> Z;
 ```
 
 * **모델 선택 과정:**
