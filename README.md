@@ -12,9 +12,8 @@
 3.  **Robyn 프로세스 개요**
     * 데이터 수집 및 준비
     * 모델 실행 및 하이퍼파라미터 튜닝
-    * 모델 선택 (Pareto Front)
+    * 모델 선택
     * 결과 해석 및 인사이트 도출
-    * (Mermaid 순서도로 표현 가능)
 4.  **Robyn 입력 변수 상세**
     * 종속 변수 (Dependent Variable)
     * 독립 변수 (Independent Variables)
