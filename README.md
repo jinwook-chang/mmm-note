@@ -1,3 +1,4 @@
+
 ## Robyn 학습 목차: Analyst's Guide to MMM
 
 1.  **[마케팅 믹스 모델링(MMM) 소개](01_Introduction%20to%20MMM.md)**
@@ -37,3 +38,6 @@
 9.  **[모델 새로고침 (Model Refresh)](09_Refreshing%20Model.md)**
       * 모델 업데이트 주기 및 방법
       * 새로운 데이터로 모델 유지 관리
+
+---
+* 참조 [Facebook 강의](https://www.facebookblueprint.com//student/path/267249)
