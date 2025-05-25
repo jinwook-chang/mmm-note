@@ -1,6 +1,6 @@
 ## Robyn 학습 목차: Analyst's Guide to MMM
 
-1.  **[마케팅 믹스 모델링(MMM) 소개](01_Introduction to MMM.md)**
+1.  **[마케팅 믹스 모델링(MMM) 소개](./01_Introduction to MMM.md)**
       * MMM이란 무엇인가?
       * MMM의 주요 구성 요소 및 개념
       * MMM의 중요성 및 목표
