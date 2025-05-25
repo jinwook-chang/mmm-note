@@ -1,5 +1,3 @@
-알겠습니다. 요청하신 GitHub 저장소의 전체 URL 경로로 링크를 수정해 드리겠습니다.
-
 ## Robyn 학습 목차: Analyst's Guide to MMM
 
 1.  **[마케팅 믹스 모델링(MMM) 소개](01_Introduction%20to%20MMM.md)**
