@@ -60,20 +60,6 @@ graph LR
         S2["열등한 모델 2"] --> P2
         S3["열등한 모델 3"] --> P3
 
-        note right of P1
-        NRMSE: 0.1
-        채널 X ROAS: 2.5
-        end
-
-        note right of P2
-        NRMSE: 0.15
-        채널 X ROAS: 3.5
-        end
-
-        note right of P3
-        NRMSE: 0.2
-        채널 X ROAS: 4.0
-        end
     end
 
     P1 -- "선택 후보" --> Z("분석가 최종 판단")
