@@ -20,7 +20,7 @@ Robyn에서 중요한 하이퍼파라미터들은 주로 다음 두 가지 효�
 
 Robyn은 `robyn_inputs()` 함수 내에서 각 채널별로 이러한 하이퍼파라미터들의 탐색 범위(상한값과 하한값)를 설정하도록 합니다. 예를 들어, `facebook_S_alphas = c(0.5, 3)` 와 같이 설정하면 Facebook 채널의 alpha 값을 0.5에서 3 사이에서 탐색합니다.
 
-또한, Robyn은 모델의 과적합(overfitting)을 방지하고 변수 간 다중공선성(multicollinearity) 문제를 완화하기 위해 내부적으로 **릿지 회귀(Ridge Regression)**를 사용합니다. 릿지 회귀의 정규화 강도(lambda) 또한 `Nevergrad`를 통해 자동으로 최적화됩니다.
+또한, Robyn은 모델의 과적합(overfitting)을 방지하고 변수 간 다중공선성(multicollinearity) 문제를 완화하기 위해 내부적으로 **릿지 회귀(Ridge Regression)** 를 사용합니다. 릿지 회귀의 정규화 강도(lambda) 또한 `Nevergrad`를 통해 자동으로 최적화됩니다.
 
 #### **2. 실험 및 반복 (Iterations & Trials)**
 
