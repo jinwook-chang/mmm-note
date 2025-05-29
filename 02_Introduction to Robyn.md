@@ -32,7 +32,7 @@ Robyn은 다른 MMM 솔루션과 차별화되는 몇 가지 주요 특징을 가
 
 2.  **광고 지출의 이월 효과(Adstock) 및 반응 곡선의 유연한 모델링:**
     * **기하학적(Geometric) 및 웨이블(Weibull)** 두 가지 형태의 광고 이월 효과(adstock)를 제공하여, 광고 효과가 시간에 따라 어떻게 지속되고 감소하는지를 더 현실적으로 모델링합니다.
-    * 반응 곡선(response curve)에 **S자 형태(S-shape curve)**를 적용하여, 광고 지출 증가에 따른 한계 효용 체감(diminishing returns) 및 포화점(saturation point)을 더 정확하게 포착합니다.
+    * 반응 곡선(response curve)에 **S자 형태\(S-shape curve\)**를 적용하여, 광고 지출 증가에 따른 한계 효용 체감(diminishing returns) 및 포화점(saturation point)을 더 정확하게 포착합니다.
 
 3.  **모델 투명성 및 해석 용이성:**
     * 다양한 시각화 도구(예: 1-pager 요약, 반응 곡선, 기여도 분해 차트 등)를 제공하여 모델 결과를 쉽게 이해하고 공유할 수 있도록 합니다.
